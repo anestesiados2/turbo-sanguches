@@ -1,0 +1,159 @@
+/* Reset básico para márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos básicos del body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(to right, #f4f4f4, #e2e2e2);
+}
+
+/* Estilos del header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Estilos del main */
+main {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Estilos para la sección de introducción */
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.intro h1 {
+    color: #242d38;
+    margin-bottom: 1rem;
+}
+
+/* Estilos para la sección 'about' */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    display: block;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la sección de llamada a la acción */
+.call-to-action {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 2rem;
+    background: linear-gradient(to right, #1d404a, #034a3b);
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.call-to-action h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.call-to-action p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.social-link {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    color: #fff;
+    background: #333;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-link:hover {
+    background: #555;
+    transform: scale(1.05);
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5em 1em; /* Ajusta el padding para reducir la altura del footer */
+    position: fixed; /* Fija el footer en la parte inferior */
+    bottom: 0;
+    width: 100%; /* Asegura que el footer ocupe todo el ancho de la página */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em; /* Espacio entre el texto y el logo */
+    box-sizing: border-box; /* Asegura que el padding se incluya en el cálculo del ancho */
+}
+
+footer p {
+    margin: 0; /* Elimina el margen para que el footer sea más compacto */
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.svg-logo svg {
+    fill: white;
+    width: 24px; /* Ajusta el tamaño del logo */
+    height: 24px;
+}

@@ -1,0 +1,47 @@
+/* Navbar Styles */
+header {
+    width: 100%;
+    background-color: #ccc; /* Color de fondo grisáceo */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000; /* Color de texto negro */
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.logout-button {
+    background-color: #f44336; /* Rojo */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.logout-button:hover {
+    background-color: #d32f2f; /* Rojo oscuro */
+}
+
